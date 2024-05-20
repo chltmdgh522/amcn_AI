@@ -26,6 +26,12 @@ class KoBARTConditionalGeneration(L.LightningModule):
 
         self.outputs = defaultdict(list)
 
+    def generate(self, input_text, tokenizer, num_beams=4, max_length=512, **kwargs):
+        input_text = input_text.replace('\n', ' ')
+        input_ids = tokenizer(input_text, return_tensors="pt").input_ids
+        summary_ids = self.model.generate(input_ids, num_beams=num_beams, max_length=max_length, **kwargs)
+        summary_text = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
+        return summary_text
     def configure_optimizers(self):
         # Prepare optimizer
         param_optimizer = list(self.model.named_parameters())

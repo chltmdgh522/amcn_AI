@@ -44,7 +44,7 @@ class ArgsBase():
                             help='max seq len')
         parser.add_argument('--max_epochs',
                             type=int,
-                            default=10,
+                            default=3,
                             help='train epochs')
         parser.add_argument('--lr',
                             type=float,
@@ -93,15 +93,15 @@ if __name__ == '__main__':
                                           mode='min',
                                           save_top_k=3)
 
-    # wandb_logger = WandbLogger(project="news-summ")
+    wandb_logger = WandbLogger(project="news-summ")
 
     trainer = L.Trainer(max_epochs=args.max_epochs,
                         accelerator=args.accelerator,
                         devices=args.num_gpus,
                         gradient_clip_val=args.gradient_clip_val,
                         callbacks=[checkpoint_callback],
-                        #logger=wandb_logger
-                        )
 
+                        logger=wandb_logger
+                        )
 
     trainer.fit(model, dm)

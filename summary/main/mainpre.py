@@ -33,11 +33,12 @@ generated_summary = tokenizer.decode(summary_ids.squeeze().tolist(), skip_specia
 
 # Reference summary (this should be a human-written summary for comparison)
 reference_summary = """
-국내 코로나19 신규 확진자가 사상 처음으로 20만 명을 넘어섰다. 1일 오후 9시까지 20만3220명의 신규 확진자가 발생했다.
+
+이날 오후 9시까지, 국내 코로나19 신규 확진자 수는 20만3220명으로 집계됐습니다. 이는 최초로 20만명대를 기록하며 동시간대 최다 기록을 갱신했습니다. 수도권에서는 서울과 경기가 각각 4만명과 6만명을 넘어선 것으로 확인되었고, 비수도권에서도 동시간대 최다를 기록한 지역이 모두 나타났습니다. 이러한 확진자 증가세는 검사 양성률이 40.5%로 처음으로 40%를 넘었다는 점에서도 주목받고 있습니다. 전체적으로 확산세가 계속되고 있으며, 자정 이후 발표되는 최종 확진자 수는 21만명 안팎으로 예상됩니다.
 """
 
 # Initialize the ROUGE scorer
-scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2','rouge3', 'rougeL'], use_stemmer=True)
+scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
 
 # Calculate the ROUGE score
 scores = scorer.score(reference_summary, generated_summary)
@@ -45,5 +46,4 @@ scores = scorer.score(reference_summary, generated_summary)
 # Print the ROUGE scores
 print("ROUGE-1: ", scores['rouge1'])
 print("ROUGE-2: ", scores['rouge2'])
-print("ROUGE-3: ", scores['rouge3'])
 print("ROUGE-L: ", scores['rougeL'])

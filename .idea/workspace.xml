@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e202fbb-00ff-4a3a-a71d-790a4c57cdec" name="Changes" comment="" />
+    <list default="true" id="4e202fbb-00ff-4a3a-a71d-790a4c57cdec" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawling/crawlingRead.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawling/crawlingRead.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summary/main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/summary/main/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summary/main/mainpre.py" beforeDir="false" afterPath="$PROJECT_DIR$/summary/main/mainpre.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summary/model/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/summary/model/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summary/owner/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/summary/owner/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summary/owner/mainpre.py" beforeDir="false" afterPath="$PROJECT_DIR$/summary/owner/mainpre.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summary/owner/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/summary/owner/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summary/pre/infer.py" beforeDir="false" afterPath="$PROJECT_DIR$/summary/pre/infer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tts/tts.py" beforeDir="false" afterPath="$PROJECT_DIR$/tts/tts.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2gdi02UI7ygdBgeWaicdQPInS5q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,12 +45,40 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.crawlingRead.executor": "Run",
+    "Python.crawlinglink.executor": "Run",
+    "Python.db.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mainpre.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.train.executor": "Run",
+    "Python.tts.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/chltm/PycharmProjects/amcn_AI/summary/owner",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chltm\PycharmProjects\amcn_AI\summary\owner" />
+      <recent name="C:\Users\chltm\PycharmProjects\amcn_AI\summary\main" />
+      <recent name="C:\Users\chltm\PycharmProjects\amcn_AI" />
+      <recent name="C:\Users\chltm\PycharmProjects\amcn_AI\summary\model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chltm\PycharmProjects\amcn_AI\summary\model" />
+      <recent name="C:\Users\chltm\PycharmProjects\amcn_AI\summary" />
+      <recent name="C:\Users\chltm\PycharmProjects\amcn_AI\summary\pre" />
+      <recent name="C:\Users\chltm\PycharmProjects\amcn_AI\summary\main" />
+      <recent name="C:\Users\chltm\PycharmProjects\amcn_AI\db" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,8 +94,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716033628588</updated>
-      <workItem from="1716033630374" duration="9000" />
+      <workItem from="1716033630374" duration="5089000" />
+      <workItem from="1716046073051" duration="606000" />
+      <workItem from="1716113759269" duration="4410000" />
+      <workItem from="1716193290710" duration="21000" />
+      <workItem from="1716193586679" duration="7694000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/amcn_AI$test.coverage" NAME="test Coverage Results" MODIFIED="1716197654889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/amcn_AI$main.coverage" NAME="main Coverage Results" MODIFIED="1716201370477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/summary/owner" />
+    <SUITE FILE_PATH="coverage/amcn_AI$crawlinglink.coverage" NAME="crawlinglink Coverage Results" MODIFIED="1716035191009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawling" />
+    <SUITE FILE_PATH="coverage/amcn_AI$tts.coverage" NAME="tts Coverage Results" MODIFIED="1716119610291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tts" />
+    <SUITE FILE_PATH="coverage/amcn_AI$crawlingRead.coverage" NAME="crawlingRead Coverage Results" MODIFIED="1716035278349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawling" />
+    <SUITE FILE_PATH="coverage/amcn_AI$train.coverage" NAME="train Coverage Results" MODIFIED="1716198018142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/summary/model" />
+    <SUITE FILE_PATH="coverage/amcn_AI$db.coverage" NAME="db Coverage Results" MODIFIED="1716038118317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
+    <SUITE FILE_PATH="coverage/amcn_AI$mainpre.coverage" NAME="mainpre Coverage Results" MODIFIED="1716200900571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/summary/owner" />
   </component>
 </project>
