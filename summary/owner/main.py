@@ -1,4 +1,3 @@
-from transformers import BartTokenizer, BartForConditionalGeneration
 from transformers import PreTrainedTokenizerFast, BartForConditionalGeneration, BartModel
 from model import KoBARTConditionalGeneration
 
@@ -24,8 +23,5 @@ input_text = """
 한편 전날 하루 선별진료소에서 이뤄진 검사는 70만8763건으로 검사 양성률은 40.5%다. 양성률이 40%를 넘은 것은 이번이 처음이다. 확산세가 계속 거세질 수 있다는 얘기다.
 이날 0시 기준 신규 확진자는 13만8993명이었다. 이틀 연속 13만명대를 이어갔다.
 """
-
 summary_text = loaded_model.generate(input_text, tokenizer, num_beams=4, max_length=512, early_stopping=True)
-
-
 print(summary_text)
