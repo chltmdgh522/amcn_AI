@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e202fbb-00ff-4a3a-a71d-790a4c57cdec" name="Changes" comment="리펙토링">
+    <list default="true" id="4e202fbb-00ff-4a3a-a71d-790a4c57cdec" name="Changes" comment="메인 수정 및 주요 문장 추출">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/summary/main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/summary/main/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/summary/owner/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/summary/owner/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +90,9 @@
       <workItem from="1716348683765" duration="1070000" />
       <workItem from="1716350491362" duration="5681000" />
       <workItem from="1716360635115" duration="841000" />
+      <workItem from="1716437383074" duration="33000" />
+      <workItem from="1716646249389" duration="3000" />
+      <workItem from="1716650500447" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="리펙토링">
       <option name="closed" value="true" />
@@ -102,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716201433245</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="메인 수정 및 주요 문장 추출">
+      <option name="closed" value="true" />
+      <created>1716437406803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716437406803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +118,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="리펙토링" />
-    <option name="LAST_COMMIT_MESSAGE" value="리펙토링" />
+    <MESSAGE value="메인 수정 및 주요 문장 추출" />
+    <option name="LAST_COMMIT_MESSAGE" value="메인 수정 및 주요 문장 추출" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/amcn_AI$test.coverage" NAME="test Coverage Results" MODIFIED="1716360686064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
